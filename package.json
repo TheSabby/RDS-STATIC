@@ -1,0 +1,8 @@
+{
+  "name": "RDS",
+  "version": "1",
+  "main": "index.html",
+  "repository": "git@github.com:kulgeek/RDS-STATIC.git",
+  "author": "Isaack okello brian <isaackokello@gmail.com>",
+  "license": "MIT"
+}

@@ -1,11 +1,11 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js build
+  /usr/local/bin/node /usr/local/bin/yarn build
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 Yarn version: 
-  1.22.4
+  1.22.10
 
 Node version: 
   12.13.0
@@ -14,12 +14,12 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/isaackbrian/Documents/WORKSPACE/Dev/Grip - Agency & Portfolio Bootstrap Template/main-files/package.json: Unexpected token . in JSON at position 196
+  SyntaxError: /Users/isaackbrian/Documents/WORKSPACE/Dev/Grip - Agency & Portfolio Bootstrap Template/main-files/package.json: Unexpected token } in JSON at position 263
       at JSON.parse (<anonymous>)
-      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at /Users/isaackbrian/.config/yarn/global/node_modules/yarn/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
-      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
-      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+      at step (/Users/isaackbrian/.config/yarn/global/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/isaackbrian/.config/yarn/global/node_modules/yarn/lib/cli.js:321:13
 
 npm manifest: 
   {
@@ -28,12 +28,9 @@ npm manifest:
     "main": "index.html",
     "repository": "git@github.com:kulgeek/RDS-STATIC.git",
     "author": "Isaack okello brian <isaackokello@gmail.com>",
-    "license": "MIT".
+    "license": "MIT",
     "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
+      "build:RDS": "yarn --prefix rds run build",
     }
   }
 
